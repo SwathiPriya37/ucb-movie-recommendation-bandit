@@ -8,8 +8,7 @@ def load_data(data_dir='dataset'):
     """
     data_path = os.path.join(data_dir, 'u.data')
     item_path = os.path.join(data_dir, 'u.item')
-    
-    # Check if files exist
+   
     if not os.path.exists(data_path):
         raise FileNotFoundError(f"Data file not found at {data_path}")
     
